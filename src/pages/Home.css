@@ -1,6 +1,12 @@
+body {
+  background-color: rgb(3, 46, 89);
+}
+
 .home {
   text-align: center;
   padding: 50px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .buttons {
