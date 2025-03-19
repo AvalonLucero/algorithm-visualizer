@@ -10,7 +10,7 @@ const InsertionSort = () => {
     );
   };
 
-  const [array, setArray] = useState(generateRandomArray(5));
+  const [array, setArray] = useState(generateRandomArray(10));
   const [current, setCurrent] = useState(null);
   const [compare, setCompare] = useState(null);
   const [message, setMessage] = useState("Click 'Start Sorting' to begin!");
@@ -87,7 +87,7 @@ const InsertionSort = () => {
   };
 
   const resetArray = () => {
-    setArray(generateRandomArray(5));
+    setArray(generateRandomArray(10));
     setCurrent(null);
     setCompare(null);
     setMessage("New array generated!");

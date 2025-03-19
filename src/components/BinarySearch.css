@@ -1,4 +1,4 @@
-.insertion-sort-page {
+.binary-search-page {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,66 +21,34 @@
 
 /* Visualization container */
 .visualization {
-  background-color: rgba(19, 18, 16, 0.182);
+  background-color: rgb(19, 18, 16, 0.182);
   padding: 20px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   width: 80%;
   height: 300px;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 /* Bar container */
 .bars-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
   width: 100%;
 }
 
 /* Bar styles */
 .bar {
+  width: 20px;
+  margin: 0 5px;
   background-color: cornflowerblue;
   color: white;
   text-align: center;
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
   transition: transform 0.3s ease;
-  width: 20px;
-  margin: 0 5px;
-}
-
-/* Button styles */
-button,
-.nav-button {
-  margin: 5px;
-  padding: 10px 20px;
-  background-color: #0a71ad;
-  font-family: "Courier New", Courier, monospace;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-button:hover,
-.nav-button:hover {
-  background-color: #3aa1eb;
-  transform: scale(1.05);
-}
-
-.nav-button {
-  text-decoration: none;
-  display: inline-block;
-}
-
-.nav-button:active,
-button:active {
-  transform: scale(0.95);
 }
